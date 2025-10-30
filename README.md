@@ -14,8 +14,8 @@ Increases in chlorophyll-a concentration, representing higher primary productivi
 ---
 
 ## Datasets  
-- **eReefs GBR4 Hydrodynamic Model** – https://thredds.nci.org.au/thredds/catalog/catalogs/fx3/catalog.html?dataset=gbr4_2.0
-- **eReefs GBR4 BioGeoChemical Model** – https://thredds.nci.org.au/thredds/catalog/catalogs/fx3/catalog.html?dataset=GBR4_H2p0_B3p1_Cq3b_Dhnd
+- **eReefs GBR4 Hydrodynamic Model** – https://thredds.ereefs.aims.gov.au/thredds/catalog/ereefs/gbr4_v4.html
+- **eReefs GBR4 BioGeoChemical Model** – https://thredds.ereefs.aims.gov.au/thredds/catalog/ereefs/GBR4_H2p0_B3p1_Cq3b_Dhnd.html 
 - **eReeds Model Descriptions** - https://research.csiro.au/ereefs/summary/
 - **IMOS Acoustic Telemetry Data (Project Manta)** – https://animaltracking.aodn.org.au/detection
 
@@ -31,3 +31,8 @@ Increases in chlorophyll-a concentration, representing higher primary productivi
 - Visualise the relationships using time-series plots, heatmaps, and bloxplots to understand environmental variability and manta behaviour seasonally.
 - Merge manta and eReefs datasets by timestamp and conduct multiple regression to test the effects of chlorophyll-a and hydrodynamic variables on manta rays.
 
+---
+
+## Running the Analysis
+
+Note: To run the source code, ResidentMantas.ipynb needs to be executed first before other anlaysis files. Include the input and ouput files in your workspace to make sure all files have the necessary data to execute properly. Any request errors when exracting AIMS eReefs data should be treated as such, and alternative server access points such as NCI (http://thredds.nci.org.au/) may be required.
