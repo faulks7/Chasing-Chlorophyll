@@ -9,7 +9,7 @@
 ---
 
 ## Hypothesis  
-Increases in chlorophyll-a concentration, representing higher primary productivity, are expected to correspond with longer manta ray residence times. This relationship is likely also driven through other physical oceanagraphic processes.
+Increases in chlorophyll-a concentration, representing higher primary productivity, are expected to correspond with longer manta ray residence times. 
 
 ---
 
